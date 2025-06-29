@@ -109,7 +109,7 @@ export default function Navbar() {
     <span>Poems</span>
     <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
   </Link>
-  <Link href="/about" className="group relative text-gray-800 hover:text-blue-600 transition-colors duration-200">
+  <Link href="/everything-about-project" className="group relative text-gray-800 hover:text-blue-600 transition-colors duration-200">
     <span>About</span>
     <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
   </Link>
@@ -213,7 +213,7 @@ export default function Navbar() {
           }`}>
             <Link href="/" onClick={toggleMobileMenu}>Home</Link>
             <Link href="/poem" onClick={toggleMobileMenu}>Poems</Link>
-            <Link href="/about" onClick={toggleMobileMenu}>About</Link>
+            <Link href="/everything-about-project" onClick={toggleMobileMenu}>About</Link>
             <Link href="/contact" onClick={toggleMobileMenu}>Contact</Link>
             
             {user ? (
