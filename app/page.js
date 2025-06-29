@@ -235,7 +235,7 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-8 leading-tight">
               Welcome to{' '}
               <span className="animate-3d-title inline-block gradient-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600">
-                Thaneshwar World
+                PoemSite
               </span>
             </h1>
             
