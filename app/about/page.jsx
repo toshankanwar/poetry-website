@@ -160,7 +160,7 @@ export default function About() {
                 
                 <div className="space-y-4 text-gray-600">
                   <p className="leading-relaxed">
-                    I am Thaneshwar Sahu, a poet with a passion for capturing the essence of life through words. My journey in poetry began during my formative years, where I discovered the power of expression through carefully crafted verses.
+                    I am Thaneshwar Sahu, a poet with a passion for capturing the essence of life through word. My journey in poetry began during my formative years, where I discovered the power of expression through carefully crafted verses.
                   </p>
                   <p className="leading-relaxed">
                     Each poem I write is a reflection of my observations, emotions, and experiences. I draw inspiration from nature, human connections, and the simple yet profound moments that make up our lives.
