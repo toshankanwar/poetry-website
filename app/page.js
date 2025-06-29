@@ -222,7 +222,7 @@ export default function Home() {
       </svg>
     </span>
     <span>
-      Want to know <span className="underline underline-offset-2">everythings</span> about the project?
+      Want to know <span className="underline underline-offset-2">everything</span> about the project?
     </span>
     <span className="animate-spin-slow">
       <svg width="18" height="18" fill="none" viewBox="0 0 24 24" className="text-pink-200 ml-1">
