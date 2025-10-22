@@ -13,7 +13,6 @@
 
 - **Main Website:** [https://poems.toshankanwar.website/](https://poems.toshankanwar.website/)
 - **Admin Dashboard:** [https://admin.poems.toshankanwar.website/](https://admin.poems.toshankanwar.website/)
-- **API/Mail Server:** [https://mail-server-poetry-website.onrender.com](https://mail-server-poetry-website.onrender.com)
 - **Everything About Project (Docs):** [https://poems.toshankanwar.website/everything-about-project](https://poems.toshankanwar.website/everything-about-project)
 
 ---
