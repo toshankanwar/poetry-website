@@ -16,7 +16,7 @@ export default function UnsubscribePage() {
     setEmail(emailParam);
 
     // Call backend API to unsubscribe
-    fetch('https://mail-server-poetry-website.onrender.com/api/unsubscribe', {
+    fetch('/api/unsubscribe', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: emailParam }),

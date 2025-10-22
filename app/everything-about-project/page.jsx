@@ -351,7 +351,6 @@ match /comments/{commentId} {
             <li>Mailing list subscription, opt-in/out, bulk notifications</li>
             <li>Fully integrated with Firestore and Firebase Admin SDK</li>
             <li>Endpoints: <code>/api/send-welcome-email</code>, <code>/api/send-aproval-email</code>, <code>/api/send-poem-announcement</code>, <code>/api/unsubscribe</code></li>
-            <li>Hosted at <a href="https://mail-server-poetry-website.onrender.com" target="_blank" className="underline text-yellow-700 hover:text-pink-600">mail-server-poetry-website.onrender.com</a></li>
             <li>Open source: <a href="https://github.com/toshankanwar/Mail-Server-Poetry-Website" target="_blank" className="underline text-yellow-700 hover:text-blue-600">Mail Server GitHub</a></li>
           </ul>
           <pre className="bg-gray-100 p-3 rounded overflow-x-auto text-xs">{`
@@ -373,9 +372,6 @@ app.post('/api/unsubscribe', ... );
             </li>
             <li>
               <b>Admin Dashboard:</b> Hosted as a <b>separate app</b> at <a href="https://admin.poems.toshankanwar.website/" className="underline text-pink-600 hover:text-purple-700">admin.poems.toshankanwar.website</a> (Firebase Hosting or Vercel).
-            </li>
-            <li>
-              <b>Mail Server:</b> Hosted on <a href="https://mail-server-poetry-website.onrender.com" className="underline text-yellow-700 hover:text-blue-700">Render</a> for scalable mail API.
             </li>
             <li>
               <b>Firestore:</b> Central data store, rules-enforced, real-time.
