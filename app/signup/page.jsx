@@ -8,14 +8,15 @@ import { onAuthStateChanged } from "firebase/auth";
 import { Eye, EyeOff } from "lucide-react";
 
 // Send welcome email - simple, no checks
+const MAIL_API_URL = process.env.NEXT_PUBLIC_MAIL_API_URL;
 async function sendWelcomeEmail({ email, name }) {
   try {
-    const response = await fetch("https://mail-server-poetry-website.onrender.com/api/send-welcome-email", {
+    const response = await fetch(`${MAIL_API_URL}/api/send-welcome-email`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, name }),
     });
-    
+
     if (response.ok) {
       console.log('✅ Welcome email sent to:', email);
     }
@@ -24,7 +25,6 @@ async function sendWelcomeEmail({ email, name }) {
     // Don't block signup if email fails
   }
 }
-
 export default function Signup() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
