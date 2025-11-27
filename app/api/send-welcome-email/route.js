@@ -1,6 +1,7 @@
 // app/api/send-welcome-email/route.js
 import { NextResponse } from "next/server";
 
+export const runtime = 'edge';
 export async function POST(request) {
   try {
     const { email, name } = await request.json();

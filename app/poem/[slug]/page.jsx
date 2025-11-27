@@ -32,7 +32,7 @@ const formatDate = (timestampMs) => {
   hours = hours.toString().padStart(2, '0');
   return `${day} ${month} ${year}, ${hours}:${minutes}:${seconds} ${ampm}`;
 };
-
+export const runtime = 'edge';
 export default function PoemSlugPage({ params }) {
   const { slug } = params;
   const decodedSlug = decodeURIComponent(slug);
