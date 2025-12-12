@@ -43,7 +43,7 @@ export default function AboutPage() {
             <span>PoemSite GitHub</span>
             <svg width="18" height="18" fill="none" viewBox="0 0 20 20" className="inline"><path stroke="currentColor" strokeWidth="2" d="M7 13l5-5m0 0V7a2 2 0 00-2-2H5.5A2.5 2.5 0 003 7.5v5A2.5 2.5 0 005.5 15h5a2 2 0 002-2v-1z"/></svg>
           </a>
-          <a href="https://admin.poems.toshankanwar.website/" target="_blank" rel="noopener" className="w-full xs:w-auto bg-white border-2 border-pink-500 text-pink-700 px-4 py-2 rounded-lg font-semibold shadow-lg hover:bg-pink-50 hover:scale-105 active:scale-100 transition-all duration-200 flex items-center gap-2 justify-center animate-popin">
+          <a href="https://admin.poems.toshankanwar.in" target="_blank" rel="noopener" className="w-full xs:w-auto bg-white border-2 border-pink-500 text-pink-700 px-4 py-2 rounded-lg font-semibold shadow-lg hover:bg-pink-50 hover:scale-105 active:scale-100 transition-all duration-200 flex items-center gap-2 justify-center animate-popin">
             <span>Admin Dashboard</span>
             <svg width="18" height="18" fill="none" viewBox="0 0 20 20" className="inline"><path stroke="currentColor" strokeWidth="2" d="M7 13l5-5m0 0V7a2 2 0 00-2-2H5.5A2.5 2.5 0 003 7.5v5A2.5 2.5 0 005.5 15h5a2 2 0 002-2v-1z"/></svg>
           </a>
@@ -134,7 +134,7 @@ export default function AboutPage() {
                 <li><b>Mailing List:</b> Export, send announcements.</li>
                 <li><b>Poem Requests:</b> View/respond to user requests.</li>
               </ul>
-              <a href="https://admin.poems.toshankanwar.website/" target="_blank" className="text-pink-600 underline hover:text-purple-700 text-sm mt-1 inline-block">Visit Admin Dashboard ↗</a>
+              <a href="https://admin.poems.toshankanwar.in/" target="_blank" className="text-pink-600 underline hover:text-purple-700 text-sm mt-1 inline-block">Visit Admin Dashboard ↗</a>
             </div>
           </div>
         </div>
@@ -315,7 +315,7 @@ match /comments/{commentId} {
         <div className="rounded-2xl border-2 border-pink-200 shadow-xl bg-white hover:shadow-2xl p-5 sm:p-8 group hover:-translate-y-1 transition-all duration-300">
           <h2 className="text-xl sm:text-2xl font-extrabold mb-3 text-pink-800 group-hover:text-purple-800 transition">Admin Dashboard <span className="text-xs font-normal ml-2">(separate app)</span></h2>
           <p className="mb-4 text-gray-700">
-            The admin dashboard is a <b>dedicated Next.js app</b> built for moderators and admins, deployed at <a className="underline text-blue-700 hover:text-pink-600" href="https://admin.poems.toshankanwar.website/" target="_blank">admin.poems.toshankanwar.website</a>
+            The admin dashboard is a <b>dedicated Next.js app</b> built for moderators and admins, deployed at <a className="underline text-blue-700 hover:text-pink-600" href="https://admin.poems.toshankanwar.in/" target="_blank">admin.poems.toshankanwar.in</a>
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <ul className="list-disc pl-6 text-gray-700">
@@ -334,7 +334,7 @@ match /comments/{commentId} {
             </ul>
           </div>
           <div className="mt-3">
-            <a href="https://admin.poems.toshankanwar.website/" target="_blank" className="w-full sm:w-auto bg-gradient-to-r from-pink-500 to-blue-500 text-white font-semibold px-5 py-2 rounded-full shadow-lg hover:scale-105 transition-all duration-200 inline-block mt-2 text-center">
+            <a href="https://admin.poems.toshankanwar.in/" target="_blank" className="w-full sm:w-auto bg-gradient-to-r from-pink-500 to-blue-500 text-white font-semibold px-5 py-2 rounded-full shadow-lg hover:scale-105 transition-all duration-200 inline-block mt-2 text-center">
               Visit Admin Dashboard ↗
             </a>
           </div>
@@ -371,7 +371,7 @@ app.post('/api/unsubscribe', ... );
               <b>Main Site:</b> Deployed on <span className="font-bold text-blue-700">Vercel</span> with auto CI/CD from GitHub.
             </li>
             <li>
-              <b>Admin Dashboard:</b> Hosted as a <b>separate app</b> at <a href="https://admin.poems.toshankanwar.website/" className="underline text-pink-600 hover:text-purple-700">admin.poems.toshankanwar.website</a> (Firebase Hosting or Vercel).
+              <b>Admin Dashboard:</b> Hosted as a <b>separate app</b> at <a href="https://admin.poems.toshankanwar.in/" className="underline text-pink-600 hover:text-purple-700">admin.poems.toshankanwar.in</a> (Firebase Hosting or Vercel).
             </li>
             <li>
               <b>Firestore:</b> Central data store, rules-enforced, real-time.
@@ -388,7 +388,7 @@ app.post('/api/unsubscribe', ... );
 
       {/* Footer */}
       <div className="mt-12 sm:mt-16 text-center text-base text-gray-400 animate-fadein">
-        &copy; {new Date().getFullYear()} <span className="font-semibold text-blue-800">PoemSite Project</span> &mdash; Built with Next.js, Firebase, Node.js, and <span className="text-pink-500">💜</span> by <a href="https://toshankanwar.website" target="_blank" className="underline text-blue-700 hover:text-pink-600">Toshan Kanwar</a>.
+        &copy; {new Date().getFullYear()} <span className="font-semibold text-blue-800">PoemSite Project</span> &mdash; Built with Next.js, Firebase, Node.js, and <span className="text-pink-500">💜</span> by <a href="https://toshankanwar.in" target="_blank" className="underline text-blue-700 hover:text-pink-600">Toshan Kanwar</a>.
       </div>
 
       {/* Animations (can be extended via Tailwind plugin or CSS) */}

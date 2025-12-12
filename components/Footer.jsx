@@ -31,7 +31,7 @@ export default function Footer() {
           <p className="text-sm text-gray-600">
             Designed & developed with ❤️ by{' '}
             <a
-              href="https://toshankanwar.website"
+              href="https://toshankanwar.in"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-800 transition"

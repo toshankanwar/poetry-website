@@ -11,9 +11,9 @@
 
 ## 🚀 Live Links
 
-- **Main Website:** [https://poems.toshankanwar.website/](https://poems.toshankanwar.website/)
-- **Admin Dashboard:** [https://admin.poems.toshankanwar.website/](https://admin.poems.toshankanwar.website/)
-- **Everything About Project (Docs):** [https://poems.toshankanwar.website/everything-about-project](https://poems.toshankanwar.website/everything-about-project)
+- **Main Website:** [https://poems.toshankanwar.in](https://poems.toshankanwar.in)
+- **Admin Dashboard:** [https://admin.poems.toshankanwar.in/](https://admin.poems.toshankanwar.in/)
+- **Everything About Project (Docs):** [https://poems.toshankanwar.in/everything-about-project](https://poems.toshankanwar.in/everything-about-project)
 
 ---
 
@@ -204,8 +204,8 @@ npm run dev
 
 ## 📫 Contact
 
-- **Creator:** [Toshan Kanwar](https://toshankanwar.website)
-- **Email:** contact@toshankanwar.website
+- **Creator:** [Toshan Kanwar](https://toshankanwar.in)
+- **Email:** contact@toshankanwar.in
 
 ---
 

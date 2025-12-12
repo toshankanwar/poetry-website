@@ -44,10 +44,10 @@ export default function Contact() {
         <div className="text-center mb-10">
           <p className="text-gray-700 font-medium mb-2">Prefer email?</p>
           <a
-            href="mailto:contact@toshankanwar.website"
+            href="mailto:contact@toshankanwar.in"
             className="inline-block bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700 transition duration-200"
           >
-            Email Us Directly to contact@toshankanwar.website
+            Email Us Directly to contact@toshankanwar.in
           </a>
         </div>
 
@@ -57,7 +57,7 @@ export default function Contact() {
           className="bg-white shadow-lg rounded-lg p-8 space-y-6 transform transition duration-300 hover:-translate-y-2 hover:shadow-[0_8px_30px_rgba(59,130,246,0.7)] hover:ring-2 hover:ring-blue-400">
         
           {/* Required Web3Forms Access Key */}
-          <input type="hidden" name="access_key" value="3246c9e3-95e7-454b-aecc-70c3488a3297" />
+          <input type="hidden" name="access_key" value="08ac4226-79c3-4554-8c7b-8397c9e00bca" />
 
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
